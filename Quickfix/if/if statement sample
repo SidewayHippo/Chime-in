@@ -1,0 +1,35 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Satire
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string username,password;
+
+            Console.Write("Please Enter your username : ");
+            username = Console.ReadLine();
+
+            Console.Write("Please enter your password : ");
+            password = Console.ReadLine();
+
+            if (password == "jas123")
+            {
+                Console.WriteLine("Welcome " + username);
+
+            }
+            else
+            {
+                Console.WriteLine("password incorrect");
+            }
+        }
+    }
+}
+
