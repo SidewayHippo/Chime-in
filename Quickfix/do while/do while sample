@@ -1,0 +1,53 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace placeholder
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            string C;
+            int A, B, D;
+            do
+            {
+                Console.Write("PLease enter your first number :");
+                A = Convert.ToInt32(Console.ReadLine());
+
+                Console.Write("Please enter your second number :");
+                B = Convert.ToInt32(Console.ReadLine());
+           
+                Console.Write("please enter which operator : ");
+                C = Console.ReadLine();
+
+                if (C == "+")
+                {
+                     
+                    Console.WriteLine(A + B);
+                }
+                if (C == "-")
+                {
+                    Console.WriteLine(A - B);
+                }
+                if (C == "*")
+                {
+                    Console.WriteLine(A * B);
+                }
+                if (C == "/")
+                {
+                    Console.WriteLine(A / B);
+                    Console.WriteLine(A / B);
+                }
+                if(C == "")
+                {
+                    Console.WriteLine("Please enter a proper operator");
+                }
+
+            } while (string.IsNullOrEmpty(C));
+        }
+    }
+}
