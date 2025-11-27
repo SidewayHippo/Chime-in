@@ -31,17 +31,22 @@ namespace papercut
             {
                 Console.WriteLine("you don't have enough money, please re enter the exact amount or higher");
                 Console.ReadKey();
+                Console.Clear();
                 Menu();
             }
             else if(n < m)
             {
                 Console.WriteLine("we don't do changes so thanks for the purchase and the extra tip");
-                
+                Console.ReadKey();
+                Console.Clear();
+                Environment.Exit(0);
             }
             else
             {
                 Console.WriteLine("thank you for your purchase");
-                
+                Console.ReadKey();
+                Console.Clear();
+                Environment.Exit(0);
             }
             
         }
@@ -63,6 +68,9 @@ namespace papercut
                 Console.WriteLine("thank you, that will cost 400,000");
                 s = s + 40000;
                 totalService += s;
+                Console.Write("press any key to continue....");
+                Console.ReadKey();
+                Console.Clear();
                 Service();
             }
         }
@@ -84,6 +92,9 @@ namespace papercut
                 Console.WriteLine("you will get a random pistol, $200");
                 c = c + 200;
                 totalGuns += c;
+                Console.Write("press any key to continue....");
+                Console.ReadKey();
+                Console.Clear();
                 Guns();
             }
             else if (g == 2)
@@ -92,20 +103,29 @@ namespace papercut
                 Console.WriteLine("A smart choice, $400");
                 c = c + 400;
                 totalGuns += c;
+                Console.Write("press any key to continue....");
+                Console.ReadKey();
+                Console.Clear();
                 Guns();
             }
             else if (g == 3)
             {
-                Console.WriteLine("");
+                Console.WriteLine("Enjoy the killing spree, $800");
                 c = c + 800;
                 totalGuns += c;
+                Console.Write("press any key to continue....");
+                Console.ReadKey();
+                Console.Clear();
                 Guns();
             }
             else if (g == 4)
             {
-                Console.WriteLine("are you mad? we dont sell that");
+                Console.WriteLine("Happy hunting, $ 1000");
                 c = c + 1000;
                 totalGuns += c;
+                Console.Write("press any key to continue....");
+                Console.ReadKey();
+                Console.Clear();
                 Guns();
             }
             else if (g == 5)
@@ -129,6 +149,9 @@ namespace papercut
                 Console.WriteLine("sorry we don't sell that");
                 q = q + 30000;
                 totalOrgans += q;
+                Console.Write("press any key to continue....");
+                Console.ReadKey();
+                Console.Clear();
                 Organs();
             }
             else if (o == 2)
@@ -137,13 +160,19 @@ namespace papercut
                 Console.WriteLine("Yeah no we don't have that");
                 q = q + 20000;
                 totalOrgans += q;
+                Console.Write("press any key to continue....");
+                Console.ReadKey();
+                Console.Clear();
                 Organs();
             }
             else if (o == 3)
             {
-                Console.WriteLine("Mate no we don't sell that");
+                Console.WriteLine("Mate no we don't sell that");               
                 q = q + 15000;
                 totalOrgans += q;
+                Console.Write("press any key to continue....");
+                Console.ReadKey();
+                Console.Clear();
                 Organs();
             }
             else if (o == 4)
@@ -207,4 +236,3 @@ namespace papercut
         }
     }
 }
-
