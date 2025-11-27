@@ -169,6 +169,7 @@ namespace papercut
                 Console.SetCursorPosition(0, Console.CursorTop - 1);
                 Console.Write(new string(' ', Console.BufferWidth));
                 Console.SetCursorPosition(0, Console.CursorTop - 1);
+                Console.Clear();
                 Organs();
             }
             else if (d == 2)
@@ -176,6 +177,7 @@ namespace papercut
                 Console.SetCursorPosition(0, Console.CursorTop - 1);
                 Console.Write(new string(' ', Console.BufferWidth));
                 Console.SetCursorPosition(0, Console.CursorTop - 1);
+                Console.Clear();
                 Guns();
             }
             else if (d == 3)
@@ -183,6 +185,7 @@ namespace papercut
                 Console.SetCursorPosition(0, Console.CursorTop - 1);
                 Console.Write(new string(' ', Console.BufferWidth));
                 Console.SetCursorPosition(0, Console.CursorTop - 1);
+                Console.Clear();
                 Service();
             }
             else if (d == 4)
@@ -190,6 +193,7 @@ namespace papercut
                 Console.SetCursorPosition(0, Console.CursorTop - 1);
                 Console.Write(new string(' ', Console.BufferWidth));
                 Console.SetCursorPosition(0, Console.CursorTop - 1);
+                Console.Clear();
                 Total();
             }
         }
@@ -203,3 +207,4 @@ namespace papercut
         }
     }
 }
+
