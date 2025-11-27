@@ -231,7 +231,7 @@ namespace papercut
         {
             int g, c;
             Console.WriteLine("Which gun do you desire?");
-            Console.WriteLine("\n1.Pistol");
+            Console.WriteLine("\n1. Pistol");
             Console.WriteLine("2. Assault Riffle");
             Console.WriteLine("3. Designated Marksman riffle");
             Console.WriteLine("4. Light Machine Gun");
@@ -290,10 +290,10 @@ namespace papercut
             int q,o;
             q = 0;
             Console.WriteLine("Which part do you desire?");
-            Console.WriteLine("\n1.Heart");
-            Console.WriteLine("2.Liver");
-            Console.WriteLine("3.Kidney");
-            Console.WriteLine("4.Retrun");
+            Console.WriteLine("\n1. Heart");
+            Console.WriteLine("2. Liver");
+            Console.WriteLine("3. Kidney");
+            Console.WriteLine("4. Retrun");
             Console.Write("Enter Here: ");
             o = Convert.ToInt32(Console.ReadLine());
 
@@ -421,3 +421,4 @@ namespace papercut
         }
     }
 }
+
